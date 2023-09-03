@@ -1,0 +1,94 @@
+:root {
+    --colorfondo1: #fef7ef;
+    --colorfondo0:  #fdf9f0;
+    --colorSecundario: #cc6ca8;
+}
+
+
+* {
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.body {
+    background-color: var(--colorfondo0);
+}
+
+
+svg {
+    color: var(--colorSecundario);
+}
+
+#one {
+    width: 100%;
+}
+
+.zocaloDolar {
+    /* width: 100%; */
+    background-color: #cc6ca7a2;
+    padding: .2rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: clip;
+    position: relative;
+    
+    }
+
+.zocaloDolar ul {
+    padding-left: 0;
+    margin: .2%;
+ 
+
+    }
+
+
+
+.zocaloDolar li{
+    display: inline;
+    font-size: 1.2rem;
+}
+
+.dolar {
+    
+    text-transform: uppercase;
+    font-weight: 400;
+    color: var(--colorfondo0);
+}
+
+.compraVenta  {
+    color: var(--colorfondo1);
+    font-weight: bolder ;
+}
+
+.valor {
+    color: var(--colorfondo0);
+}
+
+.animate {
+    position: relative;
+    animation: leftright 33s infinite  linear;
+  }
+
+  @keyframes leftright {
+    0%
+     {
+      transform: translateX(0%);
+      
+    }
+ 
+    100% {
+      transform: translateX(-100%);
+      
+    }
+  }
+
+
+
+  .clima {
+    height: 200%;
+    background-color: rgba(135, 206, 250, 0.5);
+    border-radius: 71% 29% 57% 43% / 28% 62% 38% 72% ;
+  }
